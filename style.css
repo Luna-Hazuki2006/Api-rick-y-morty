@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #222;
+}
+
+p {
+    margin: 0;
+    font-family: 'Edu QLD Beginner', cursive;
+
+    font-family: 'Inconsolata', monospace;
+
+    font-family: 'Poppins', sans-serif;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.char-car {
+    display: flex;
+    background-color: darkgrey;
+    border-radius: 0.5rem;
+    margin: 0.3rem;
+    overflow: hidden;
+}
+
+.char-info-cont {
+
+}
+
+#char-contenedor {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 0.3rem;
+}
+
+.char-info {
+    margin: 0.3rem ;
+}
+
+.char-img {
+    object-fit: cover;
+    width: 150px;
+    height: 100%;
+}
+
+.text-blan {
+    color: white;
+}
+
+.text-gr {
+    color: lightgray;
+}
+
+@media screen and (min-width: 560px) {
+    #char-contenedor {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 860px) {
+    #char-contenedor {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
