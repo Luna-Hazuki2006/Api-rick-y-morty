@@ -3,7 +3,7 @@ console.log("hola mundo");
 const init = async () => {
     try {
         // llamar api
-        const response = await fetch("https://rickandmortyapi.com/api/character/?page=15")
+        const response = await fetch("https://rickandmortyapi.com/api/character/?page=10")
         // transformar a JSON
         const data = await response.json()
         console.log(data.results);
