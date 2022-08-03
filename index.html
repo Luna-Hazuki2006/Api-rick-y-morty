@@ -12,11 +12,27 @@
     <title>Document</title>
 </head>
 <body>
-    <div >
-
-    </div>
-    <div id="char-contenedor">
-    </div>
+    <header class="division">
+        <div>
+            <label class="text-blan" for="input-nombre">Nombre:</label>
+            <input type="text" name="input-nombre" id="input-nombre">
+            <button id="boton-filtrar">Filtrar</button>
+        </div>
+        <div>
+            <a href="capitulos/index.html">
+                <p class="text-blan">¿Cansado de ver acerca de los personajes? ¡Revisa los episodios!</p>
+            </a>
+        </div>
+        <div>
+            <label class="text-blan" id="label-paginas" for="paginas">Páginas:</label>
+            <select name="paginas" id="paginas"></select>
+            <button id="boton-paginas">Seleccionar página</button>
+        </div>
+    </header>
+    <main>
+        <div id="char-contenedor">
+        </div>
+    </main>
     <!-- <div class="char-car">
         <img class="char-img" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/rick-and-morty-1604562846.jpg?crop=1.00xw:0.954xh;0,0.0248xh&resize=1200:*" alt="Personaje">
         <div class="char-info-cont">

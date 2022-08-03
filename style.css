@@ -23,9 +23,9 @@ p {
     overflow: hidden;
 }
 
-.char-info-cont {
+/* .char-info-cont {
 
-}
+} */
 
 #char-contenedor {
     display: grid;
@@ -41,6 +41,18 @@ p {
     object-fit: cover;
     width: 150px;
     height: 100%;
+}
+
+.division {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.central {
+    display: flex;
+    justify-items: center;
+    padding: 10px;
 }
 
 .text-blan {
