@@ -45,6 +45,9 @@ p {
 
 .division {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
     justify-content: space-between;
     padding: 10px;
 }
@@ -63,14 +66,23 @@ p {
     color: lightgray;
 }
 
+.corte {
+    padding: 5px;
+}
+
 @media screen and (min-width: 560px) {
     #char-contenedor {
         grid-template-columns: 1fr 1fr;
     }
+
 }
 
 @media screen and (min-width: 860px) {
     #char-contenedor {
         grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .division {
+        flex-direction: row;
     }
 }
