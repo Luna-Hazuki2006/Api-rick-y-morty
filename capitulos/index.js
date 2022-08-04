@@ -19,8 +19,8 @@ const init = async () => {
                 </div>
             </div>
             `
-        });  
-
+        });
+        console.log("init");
     } catch (error) {
         console.error(error)
         console.log("Hubo un error");
