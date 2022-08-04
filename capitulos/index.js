@@ -9,13 +9,13 @@ const init = async () => {
             charContenedorElement.innerHTML += `
             <div class="char-car">
                 <div class="char-info">
-                    <p>${element["name"]}</p>
+                    <p class="text-blan">Nombre: ${element["name"]}</p>
                 </div>
                 <div class="char-info">
-                    <p>${element["air_date"]}</p>
+                    <p>Fecha de estreno: ${element["air_date"]}</p>
                 </div>
                 <div class="char-info">
-                    <p>${element["episode"]}</p>
+                    <p>Código del episodio${element["episode"]}</p>
                 </div>
             </div>
             `
